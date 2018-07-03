@@ -1,0 +1,666 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image: url('../img/headerbg.png');
+  height: 100vh;
+  background-position: top center;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  padding-top: 44px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.middleblock{
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.centering-content{
+  align-items: center;
+  height: calc(100% - 88px);
+}
+.half{
+  float: left;
+  width: 50%;
+}
+.eighty{
+  width: 80%;
+  float: left;
+}
+.twenty{
+  width: 20%;
+  float: left;
+}
+.logo{
+  background-image: url('../img/lg.png');
+  height: 44px;
+  width: 130px;
+}
+.navigation{
+  float: right;
+}
+.navigation-item{
+  float: right;
+  list-style: none;
+  margin-left: 34px;
+  font-size: 14px;
+  font-family: "Museo Sans Rounded";
+  color: rgb(255, 255, 255);
+  user-select: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 1.143;
+}
+.header h1{
+  font-size: 55.88px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  width: 564px;
+}
+.header p{
+  margin-top: 30px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  width: 620px;
+}
+.botao-lojita{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 275px;
+  height: 62px;
+  font-size: 20px;
+  color: rgb(245, 76, 55);
+  line-height: 1.2;
+  border: none;
+  margin-top: 50px;
+}
+.invest{
+  height: 880px;
+  margin-top: 100vh;
+  background-color: #fff;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-background-size: 50%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-image: url('../img/lojitamap.png');
+}
+.center-content{
+  align-items: center;
+}
+.nowrap{
+  flex-wrap: wrap;
+}
+.infoholder{
+  font-size: 16px;
+  color: rgb(144, 144, 144);
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 63px;
+  width: 100%;
+  max-width: 564px;
+}
+.infoholder h2{
+  margin-bottom: 47px;
+  font-size: 42px;
+}
+.infopoints{
+  display: -webkit-flex;
+  display: -ms-flex;
+  max-width: 640px;
+  float: left;
+  width: 100%;
+  display: flex;
+}
+.points{
+  width: 320px;
+  float: left;
+  margin-bottom: 35px;
+}
+.points .icon{
+  border-width: 2px;
+  border-color: rgb(225, 92, 91);
+  border-style: solid;
+  border-radius: 50%;
+  width: 61px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 61px;
+}
+.subtext b{
+  color: #f04f4e;
+  font-weight: 700;
+}
+.pointsheader{
+  font-size: 16px;
+  font-family: "Museo Sans Rounded";
+  color: rgb(225, 92, 91);
+  line-height: 1.2;
+  text-align: left;
+}
+.pointext{
+  font-size: 27px;
+  color: rgb(146, 146, 146);
+  line-height: 1.2;
+  text-align: left;
+}
+.pointstext{
+  float: left;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+
+.meet-lojita {
+  border-radius: 10px;
+  background-image: -moz-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -webkit-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -ms-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.48);
+  width: 387px;
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 25px;
+  -webkit-box-sizing: border-box;
+  transition: margin-left 0.2s ease;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border: none;
+  line-height: 1.2;
+  display: block;
+  color: #fff;
+}
+.meet-lojita:hover{
+  cursor: pointer;
+  margin-left: -10px;
+}
+.rent{
+  background-image: url('../img/bg.png');
+  background-position: center bottom -20px;
+  background-color: #fff;
+    background-repeat: no-repeat;
+
+     margin-top: -1px;
+  width: 100%;
+}
+.rent h2{
+  width: 100%;
+  font-size: 42px;
+  padding-top: 20px;
+}
+.rent .subtitle {
+  font-size: 17px;
+  color: rgb(152, 152, 152);
+  line-height: 1.412;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.rent-topics {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 18px 59px 0px rgba(0, 0, 0, 0.22);
+  margin: 240px auto 175px;
+  max-width: 1024px;
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  justify-content: space-around;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  z-index: 4;
+}
+.rent-avatar{
+  border-radius: 50%;
+  background-color: rgb(245, 74, 53);
+  box-shadow: 0px 9px 35px 0px rgba(0, 0, 0, 0.13);
+  margin: -100px auto 35px;
+  width: 215px;
+  height: 215px;
+  z-index: 5;
+}
+.rent-avatar.bigger {
+  border-radius: 50%;
+  background-color: rgb(245, 74, 53);
+  box-shadow: 0px 9px 35px 0px rgba(0, 0, 0, 0.13);
+  width: 267px;
+  margin-top: -131px;
+  height: 267px;
+  z-index: 6;
+}
+
+.rent-item-title{
+  font-size: 22px;
+  font-family: "Museo Sans Rounded";
+  color: rgb(117, 117, 117);
+  line-height: 1.2;
+  text-align: center;
+  z-index: 10;
+}
+.rent-item-info {
+  font-size: 14px;
+  font-family: "Museo Sans Rounded";
+  color: rgb(152, 152, 152);
+  line-height: 1.412;
+  text-align: center;
+  margin: 20px 20px 0px;
+  z-index: 11;
+}
+
+.rent-item{
+  width: 30%;
+}
+.rent-item .button{
+  border-radius: 10px;
+  background-image: -moz-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -webkit-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -ms-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.48);
+  width: 244px;
+  color: #fff;
+  height: 44px;
+  z-index: 45;
+  display: block;
+  border: none;
+  margin: 20px auto;
+}
+.return{
+  background-color: #fff;
+}
+.return h2{
+  width: 100%;
+  font-size: 42px;
+  padding-top: 130px;
+}
+.return .subtitle {
+  font-size: 17px;
+  color: rgb(152, 152, 152);
+  line-height: 1.412;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.return-items{
+  width: 250px;
+  margin-top: 180px;
+}
+.return-item{
+  margin-bottom: 50px;
+}
+.return-item-text{
+  font-size: 14px;
+  color: rgb(152, 152, 152);
+  line-height: 2.142;
+  text-align: right;
+  z-index: 26;
+
+}
+.return-item-title{
+  font-size: 22px;
+  color: rgb(225, 92, 91);
+  line-height: 1.2;
+  text-align: left;
+  z-index: 24;
+}
+
+.lojita-img{
+  max-width: 690px;
+  height: 580px;
+  margin-top: 80px;
+  background-position: top center;
+  width: 100%;
+  margin-bottom: 40px;
+  background-image: url(../img/lojita.png);
+}
+.inputarea{
+  width: 100%;
+  display: block;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ebebeb;
+}
+.contactform{
+  background-color: #fff;
+  margin-top: -1px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.contactform h2{
+  width: 100%;
+  font-size: 42px;
+  padding-top: 20px;
+}
+.contactform .subtitle{
+  font-size: 17px;
+  color: rgb(152, 152, 152);
+  line-height: 1.412;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.onehundred{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.buy-lojita {
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -webkit-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  background-image: -ms-linear-gradient( -173deg, rgb(253,115,57) 0%, rgb(246,86,65) 32%, rgb(239,56,72) 100%);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.48);
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 25px;
+  -webkit-box-sizing: border-box;
+  transition: margin-left 0.2s ease;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border: none;
+  line-height: 1.2;
+  display: block;
+  color: #fff;
+}
+textarea{
+  height: 100px;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  padding-top: 10px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: none;
+  background-color: #ebebeb;
+}
+.tar{
+  text-align: right;
+}
+.tal{
+  text-align: left;
+}
+.tac{
+  text-align: center;
+}
+@media (max-width: 1008px) {
+  .buy-lojita {
+    padding-left: 0;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 40.88px;
+    width: 500px;
+  }
+
+  .header p{
+    width: 500px;
+  }
+  .points{
+    width: 220px;
+  }
+  .points p{
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .infoholder{
+    width: 50%;
+  }
+  .lojita-img {
+    max-width: 475px;
+    height: 580px;
+    margin-top: 80px;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 40px;
+    background-image: url(../img/lojita.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .rent-topics {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    height: 1350px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    background-image: -moz-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+    background-image: -webkit-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+    background-image: -ms-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+  }
+  .nowrapresponsive{
+    flex-wrap: wrap;
+  }
+  .rent-avatar{
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  }
+  .rent-item{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 340px;
+    margin: -30px auto;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 150px;
+  }
+  .rent{
+    height: auto;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: none;
+    background-position: center;
+    background-position: 0 452px;
+    padding-bottom: 30px;
+  }
+  .lojita-img{
+    order: 1;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: top center;
+    width: 100%;
+    max-width: 1008px;
+    height: 80vw;
+  }
+  .return-items{
+    order: 2;
+    width: 50%;
+    margin-top: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rent-avatar.bigger {
+    border-radius: 50%;
+    background-color: rgb(245, 74, 53);
+    box-shadow: 0px 9px 35px 0px rgba(0, 0, 0, 0.13);
+    margin: -100px auto 35px;
+    width: 215px;
+    height: 215px;
+    z-index: 5;
+  }
+  .subtitle{
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 948px) {
+  .nopadding{
+    padding: 0;
+  }
+  .header {
+  background-image: -moz-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+  background-image: -webkit-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+  background-image: -ms-linear-gradient( -113deg, rgb(239,56,72) 0%, rgb(246,77,56) 57%, rgb(253,115,57) 100%);
+  min-height: 1077px;
+  position: relative;
+  overflow: hidden;
+  }
+  .invest{
+    background-position: right -860px center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0px;
+  }
+  .lojita-bgimg {
+      background-size: 80%;
+      background-image: url(../img/lojita-bg.png);
+      position: absolute;
+      height: 630px;
+      max-width: 732px;
+      width: calc(100% - 38px);
+      background-position: right;
+      background-repeat: no-repeat;
+      right: -38px;
+      bottom: -140px;
+      z-index: -1;
+  }
+  .infoholder{
+    width: 80%;
+  }
+}
+@media (max-width: 680px) {
+  .eighty{
+    display: none;
+  }
+  .centering-content {
+    align-items: center;
+    height: calc(85% - 88px);
+  }
+}
+@media (max-width: 625px) {
+  .infoholder h2 {
+    font-size: 33px;
+  }
+  .contactform h2 {
+    font-size: 33px;
+    padding-top: 20px;
+  }
+  .contactform h2 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 33px;
+  }
+  .rent h2 {
+    font-size: 32px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+  }
+  .return h2 {
+    width: 100%;
+    font-size: 34px;
+    padding-top: 130px;
+  }
+}
+@media (max-width: 550px) {
+  .lojita-img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .texted{
+    margin-top: -112px;
+  }
+  .header h1 {
+    font-size: 33.88px;
+    width: 100%;
+  }
+  .header{
+    min-height: 930px;
+  }
+  .header p {
+    width: 100%;
+    margin-top: 18px;
+    font-size: 14px;
+  }
+  .lojita-bgimg {
+    background-size: 100%;
+    background-image: url(../img/lojita-bg.png);
+    position: absolute;
+    height: 639px;
+    max-width: 732px;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: -122px;
+    z-index: -1;
+  }
+}
+@media (max-width: 479px){
+  .infoholder {
+    width: 95%;
+  }
+  .invest {
+    height: 1236px;
+    background-position: right -656px bottom;
+    -webkit-background-size: auto;
+    background-size: auto;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 410px) {
+
+  .rent-item{
+    width: 90%;
+  }
+  .invest{
+    background-position: right -745px bottom;
+  }
+}
+@media (max-width: 340px) {
+  .return-item-text {
+    font-size: 13px;
+    color: rgb(152, 152, 152);
+    margin-top: 10px;
+    line-height: 1.542;
+    z-index: 26;
+  }
+  .invest{
+    background-position: right -709px bottom -38px;
+  }
+}
